@@ -13,4 +13,62 @@
     await mermaid.run({querySelector:'code.language-mermaid'});
 </script>
 
+<!-- Smooth scroll with JavaScript for better performance -->
+<script>
+(function() {
+  // 检查是否在首页（包含锚点链接的页面）
+  const links = document.querySelectorAll('a[href^="#"]');
+  if (links.length === 0) return;
+
+  // 为所有锚点链接添加平滑滚动
+  links.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      const href = this.getAttribute('href');
+      // 跳过空锚点
+      if (href === '#' || href === '') return;
+      
+      const targetId = href.substring(1);
+      const targetElement = document.getElementById(targetId);
+      
+      if (targetElement) {
+        e.preventDefault();
+        
+        // 获取目标位置，考虑固定导航栏的高度
+        const headerOffset = 100;
+        const elementPosition = targetElement.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+        
+        // 使用 requestAnimationFrame 实现流畅滚动
+        let start = null;
+        const duration = 600; // 滚动持续时间（毫秒）
+        const startPosition = window.pageYOffset;
+        const distance = offsetPosition - startPosition;
+        
+        function step(timestamp) {
+          if (!start) start = timestamp;
+          const progress = timestamp - start;
+          const progressRatio = Math.min(progress / duration, 1);
+          
+          // 使用 easeInOutCubic 缓动函数，使滚动更自然
+          const easeInOutCubic = progressRatio < 0.5
+            ? 4 * progressRatio * progressRatio * progressRatio
+            : 1 - Math.pow(-2 * progressRatio + 2, 3) / 2;
+          
+          window.scrollTo(0, startPosition + distance * easeInOutCubic);
+          
+          if (progress < duration) {
+            requestAnimationFrame(step);
+          } else {
+            // 滚动完成后，确保精确到达目标位置
+            window.scrollTo(0, offsetPosition);
+          }
+        }
+        
+        requestAnimationFrame(step);
+      }
+    });
+  });
+})();
+</script>
+
 <!-- end custom footer snippets -->

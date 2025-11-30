@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Interfacial heat conduction enhancement mechanism between CNTs encapsulated with LCC",
+    "image": "images/publications/Inter_CEJ.png",
+    "authors": ["Hanying Zou", "Yanhui Feng", "Lin Qiu"],
+    "venue": "Chemical Engineering Journal",
+    "year": "",
+    "links": {
+      "paper": "https://www.sciencedirect.com/science/article/pii/S1385894725096846"
+    }
+  },
+  {
+    "title": "Interfacial thermal conduction mechanism of polypyrrole/carbon nanotube composites",
+    "image": "images/publications/Inter_CST.png",
+    "authors": ["Hanying Zou", "Yanhui Feng", "Xiaolong Tang", "Xinxin Zhang", "Lin Qiu"],
+    "venue": "Composites Science and Technology",
+    "year": "",
+    "links": {
+      "paper": "https://doi.org/10.1016/j.compscitech.2023.110346"
+    }
+  },
+  {
+    "title": "Extraordinary thermal conductivity for carbon nanotube encapsulated linear carbon chain",
+    "image": "images/publications/Extra_IJHMT.png",
+    "authors": ["Hanying Zou", "Yanhui Feng", "Xiaolong Tang", "Xinxin Zhang", "Lin Qiu"],
+    "venue": "International Journal of Heat and Mass Transfer",
+    "year": "",
+    "links": {
+      "paper": "https://doi.org/10.1016/j.ijheatmasstransfer.2024.125545"
+    }
+  },
+  {
+    "title": "Enhancing mechanism of CNT-CNT interface by metal nanoparticle and nanowire effect on the inside and outside of CNT",
+    "image": "images/publications/Enhancing_IJTS.png",
+    "authors": ["Hanying Zou", "Yanhui Feng", "Xinxin Zhang", "Taku Ohara", "Lin Qiu"],
+    "venue": "International Journal of Thermal Sciences",
+    "year": "",
+    "links": {
+      "paper": "https://doi.org/10.1016/j.ijthermalsci.2022.108094"
+    }
+  },
+  {
+    "title": "Polypyrrole coated carbon nanotube aerogel composite phase change materials with enhanced thermal conductivity, high solar-/electro-thermal energy conversion and storage",
+    "image": "images/publications/default.png", 
+    "authors": ["Zhang Tao", "Hanying Zou", "Min Li", "Shibing Ren", "Jianhang Xu", "Jing Lin", "Mu Yang", "Yanhui Feng", "Ge Wang"],
+    "venue": "Journal of Colloid and Interface Science",
+    "year": "",
+    "links": {
+      "paper": "https://doi.org/10.1016/j.jcis.2022.09.103"
+    }
+  },
+  {
+    "title": "Excellent heat transfer enhancement of CNT-metal interface by loading carbyne and metal nanowire into CNT",
+    "image": "images/publications/Excellent_IJHMT.png",
+    "authors": ["Hanying Zou", "Yanhui Feng", "Lin Qiu"],
+    "venue": "International Journal of Heat and Mass Transfer",
+    "year": "",
+    "links": {
+      "paper": "https://doi.org/10.1016/j.ijheatmasstransfer.2022.122533"
+    }
+  },
+  {
+    "title": "Thermal conductance control of non-bonded interaction between loaded halogen molecules and carbon nanotubes: A molecular dynamics study",
+    "image": "images/publications/Thermal_IJHMT.png",
+    "authors": ["Hanying Zou", "Yanhui Feng", "Lin Qiu", "Xinxin Zhang"],
+    "venue": "International Journal of Heat and Mass Transfer",
+    "year": "",
+    "links": {
+      "paper": "https://doi.org/10.1016/j.ijheatmasstransfer.2021.122216"
+    }
+  }
+]

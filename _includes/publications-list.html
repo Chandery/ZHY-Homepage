@@ -1,0 +1,164 @@
+{% include base_path %}
+
+{% if include.data %}
+  {% assign publications = include.data %}
+{% else %}
+  {% assign publications = site.data.publications %}
+{% endif %}
+
+<style>
+.publications-list {
+  margin: 2em 0;
+}
+
+.publication-item {
+  display: flex;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.publication-item:last-child {
+  border-bottom: none;
+}
+
+.publication-image {
+  flex-shrink: 0;
+  width: 240px;
+  height: 135px;
+  margin-right: 1.5em;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e0e0e0;
+}
+
+.publication-image img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.publication-content {
+  flex: 1;
+}
+
+.publication-title {
+  font-size: 1.0em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  line-height: 1.4;
+}
+
+.publication-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.publication-title a:hover {
+  text-decoration: underline;
+}
+
+.publication-links-inline {
+  margin-left: 0.5em;
+}
+
+.publication-links-inline a {
+  display: inline-block;
+  margin-right: 0.5em;
+  text-decoration: none;
+  font-size: 0.85em;
+  color: #0066cc;
+  transition: color 0.2s;
+}
+
+.publication-links-inline a:hover {
+  color: #004499;
+  text-decoration: underline;
+}
+
+.publication-authors {
+  margin: 0.5em 0;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.publication-venue {
+  margin-top: 0.3em;
+  font-size: 0.85em;
+  color: #888;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .publication-item {
+    flex-direction: column;
+  }
+  
+  .publication-image {
+    width: 100%;
+    max-width: 300px;
+    height: 169px;
+    margin-right: 0;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+</style>
+
+<div class="publications-list">
+  {% for pub in publications %}
+    <div class="publication-item">
+      {% if pub.image %}
+        <div class="publication-image">
+          <img src="{% if pub.image contains '://' %}{{ pub.image }}{% else %}{{ pub.image | prepend: '/' | prepend: base_path }}{% endif %}" alt="{{ pub.title }}">
+        </div>
+      {% endif %}
+      
+      <div class="publication-content">
+        <div class="publication-title">
+          {% if pub.links.paper %}
+            <a href="{{ pub.links.paper }}" target="_blank">{{ pub.title }}</a>
+          {% else %}
+            {{ pub.title }}
+          {% endif %}
+          {% if pub.links %}
+            <span class="publication-links-inline">
+              {% if pub.links.paper %}
+                <a href="{{ pub.links.paper }}" target="_blank">[Paper]</a>
+              {% endif %}
+              {% if pub.links.project %}
+                <a href="{{ pub.links.project }}" target="_blank">[Project]</a>
+              {% endif %}
+              {% if pub.links.code %}
+                <a href="{{ pub.links.code }}" target="_blank">[Code]</a>
+              {% endif %}
+              {% if pub.links.slides %}
+                <a href="{{ pub.links.slides }}" target="_blank">[Slides]</a>
+              {% endif %}
+              {% if pub.links.video %}
+                <a href="{{ pub.links.video }}" target="_blank">[Video]</a>
+              {% endif %}
+            </span>
+          {% endif %}
+        </div>
+        
+        <div class="publication-authors">
+          {{ pub.authors | join: ", " }}
+        </div>
+        
+        <div class="publication-venue">
+          {{ pub.venue }}{% if pub.year %} {{ pub.year }}{% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
