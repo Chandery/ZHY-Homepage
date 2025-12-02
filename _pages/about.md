@@ -16,14 +16,14 @@ redirect_from:
 ## 🎓 About Me
 {: #about-me .section}
 
-I am currently a lecturer in the <a href="https://seee.ustb.edu.cn/">School of Energy and Environmental Engineering</a>, <a href="https://www.ustb.edu.cn/">University of Science and Technology Beijing</a>. I obtained my B.E and Ph.D degrees from USTB, under the supervision of Prof. Yanhui Feng and Prof. Lin Qiu. My research interests focus on heat transfer mechanisms in materials, include thermal simulation of nanoscale, thermal design of carbon materials and AI for materials.
+I am currently a lecturer in the School of Energy and Environmental Engineering, University of Science and Technology Beijing. I obtained my B.E and Ph.D degrees from USTB, under the supervision of Prof. Yanhui Feng and Prof. Lin Qiu. My research interests focus on heat transfer mechanisms in materials, include thermal simulation of nanoscale, thermal design of carbon materials and AI for materials.
 
 ## 🤝 Join Us
 {: #join-us .section}
 
 If you are interested in our projects on heat transfer mechanisms in materials, please feel free to contact me for potential collaboration or exchange. You can reach out via email.
 
-如果您对我们在材料中热传递机制的项目感兴趣，请随时通过电子邮件与我联系，以便探讨潜在的合作或交流。
+如果您对我们在材料中热传递机制的项目感兴趣，请随时通过电子邮件与我联系(<a href="mailto:hyzou@ustb.edu.cn">hyzou@ustb.edu.cn<a/>)，以便探讨潜在的合作或交流。
 
 ## 🔥 News
 {: #news .section}
