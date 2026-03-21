@@ -1,5 +1,15 @@
 [
   {
+    "title": "Bridging uniaxially-aligned carbon nanotubes with linear carbon chain for heat transfer enhancement",
+    "image": "images/publications/Bridging.jpg",
+    "authors": ["Hanying Zou", "Qinling Shi","Yanhui Feng","Junfei Liang", "Lin Qiu"],
+    "venue": "International Journal of Heat and Mass Transfer",
+    "year": "",
+    "links": {
+      "paper": "https://doi.org/10.1016/j.ijheatmasstransfer.2026.128613"
+    }
+  },
+  {
     "title": "Interfacial heat conduction enhancement mechanism between CNTs encapsulated with LCC",
     "image": "images/publications/Inter_CEJ.png",
     "authors": ["Hanying Zou", "Yanhui Feng", "Lin Qiu"],
