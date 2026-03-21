@@ -94,3 +94,7 @@ Unfortunately, one logistical issue with a template theme like Academic Pages th
 [![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
 [![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
 </div>
+
+维护需要修改的两个文件：
+ 1. _pages/about.md
+ 2. _data/publications.json
