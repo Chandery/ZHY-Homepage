@@ -27,7 +27,7 @@ If you are interested in our projects on heat transfer mechanisms in materials, 
 
 ## 🔥 News
 {: #news .section}
-
+- **2026.03**: One paper accepted by International Journal of Heat and Mass Transfer
 - **2025.10**: One paper accepted by Chemical Engineering Journal
 - **2025.10**: Oral for the 14th Asian Thermophysical Properties Conference (ATPC)
 
