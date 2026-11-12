@@ -88,5 +88,35 @@
     "links": {
       "paper": "https://doi.org/10.1016/j.ijheatmasstransfer.2021.122216"
     }
+  },
+  {
+    "title": "A Neural Regression Model for Predicting Thermal Conductivity of CNT Nanofluids with Multiple Base Fluids",
+    "image": "images/publications/Neural_JThermSci.png",
+    "authors": ["Hanying Zou", "Cheng Chen", "Muxi Zha", "Kangneng Zhou", "Ruoxiu Xiao", "Yanhui Feng", "Lin Qiu", "Xinxin Zhang", "Zhiliang Wang"],
+    "venue": "Journal of Thermal Science",
+    "year": "",
+    "links": {
+      "paper": "https://doi.org/10.1007/s11630-021-1497-1"
+    }
+  },
+  {
+    "title": "Effect of the loading amount and arrangement of iodine chains on the interfacial thermal transport of carbon nanotubes: a molecular dynamics study",
+    "image": "images/publications/Effect_RSC.png",
+    "authors": ["Hanying Zou", "Yanhui Feng", "Lin Qiu", "Xinxin Zhang"],
+    "venue": "RSC Advances",
+    "year": "",
+    "links": {
+      "paper": "https://doi.org/10.1039/d0ra06870e"
+    }
+  },
+  {
+    "title": "Size effect on the thermal conductivity of octadecanoic acid: A molecular dynamics study",
+    "image": "images/publications/Size_CMS.png",
+    "authors": ["Yanhui Feng", "Hanying Zou", "Lin Qiu", "Xinxin Zhang"],
+    "venue": "Computational Materials Science",
+    "year": "",
+    "links": {
+      "paper": "https://doi.org/10.1016/j.commatsci.2018.11.012"
+    }
   }
 ]
