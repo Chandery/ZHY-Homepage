@@ -1,5 +1,15 @@
 [
   {
+    "title": "Interfacial defects between CNTs: Heat transfer and load-induced enhancement",
+    "image": "images/publications/Defect.png",
+    "authors": ["Hanying Zou", "Qinling Shi", "Mamookho Elizabeth Makhatha", "Nonhlangabezo Mabuba", "Yanhui Feng", "Lin Qiu"],
+    "venue": "Composites Science and Technology",
+    "year": "",
+    "links": {
+      "paper": "https://doi.org/10.1016/j.compscitech.2026.111917"
+    }
+  },
+  {
     "title": "Bridging uniaxially-aligned carbon nanotubes with linear carbon chain for heat transfer enhancement",
     "image": "images/publications/Bridging.jpg",
     "authors": ["Hanying Zou", "Qinling Shi","Yanhui Feng","Junfei Liang", "Lin Qiu"],
